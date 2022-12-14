@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Z-TECH</title>
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/FontAwesome/fontawesome.css" />
+  <link rel="stylesheet" href="./css/FontAwesome/all.css" />
+  <link rel="stylesheet" href="./css/webfonts/fa-regular-400.woff2" />
+  <link rel="stylesheet" href="./css/Signup.css">
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+
+
+  <script>
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });
+    </script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="logo">
+          <a href="index.html"><img src="./imgs/newlogo.png" style="width: 80px; height:70px;" alt=""></a>
+        </div>
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav mt-4">
+          <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./TESTIMONIALS.html">testimonials</a></li>
+            <li><a href="./contact_us.html">contact</a></li>
+            <li><a href="./FAQ.html">FAQ</a></li>
+            <li><a href="./Signup.html" class="active">Sign Up</a></li>
+            <li><a href="./login.html">Log In</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Body of Form starts -->
+  <div class="containerr">
+    <h2 class="sign">Welcome..! Sign Up</h2>
+    <form method="post" autocomplete="off">
+      <!--First name-->
+      <div class="box">
+        <label for="firstName" class="fl fontLabel"> First Name: </label>
+        <div class="new iconBox">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="fr">
+          <input type="text" name="firstName" class="textBox" autofocus="on" required />
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!--First name-->
+
+      <!--Second name-->
+      <div class="box">
+        <label for="secondName" class="fl fontLabel"> Second Name: </label>
+        <div class="fl iconBox">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="fr">
+          <input type="text" required name="secondName" class="textBox" />
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!--Second name-->
+
+      <!---Phone No.------>
+      <div class="box">
+        <label for="phone" class="fl fontLabel"> Phone Number: </label>
+        <div class="fl iconBox">
+          <i class="fa fa-phone-square" aria-hidden="true"></i>
+        </div>
+        <div class="fr">
+          <input type="text" required name="phoneNo" maxlength="10" class="textBox" />
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!---Phone No.---->
+
+      <!---Email ID---->
+      <div class="box">
+        <label for="email" class="fl fontLabel"> E-mail : </label>
+        <div class="fl iconBox">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+        <div class="fr">
+          <input type="email" required name="email" class="textBox" />
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!--Email ID----->
+
+      <!---Password------>
+      <div class="box">
+        <label for="password" class="fl fontLabel"> Password </label>
+        <div class="fl iconBox">
+          <i class="fa fa-key" aria-hidden="true"></i>
+        </div>
+        <div class="fr">
+          <input type="Password" required name="password" class="textBox" />
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!---Password---->
+
+      <!---Gender----->
+      <div class="box radio">
+        <label for="gender" class="fl fontLabel"> Gender :</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male </label>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female </label>
+      </div>
+      <!---Gender--->
+
+      <!--Terms and Conditions------>
+      <div class="box terms">
+        <input type="checkbox" name="Terms" id="check" required /> &nbsp;
+        <label for="check">I accept the terms and conditions</label>
+      </div>
+      <!--Terms and Conditions------>
+
+      <!---Submit Button------>
+      <div class="box" style="background: transparent">
+        <input type="Submit" name="Submit" class="submit" value="SUBMIT" />
+      </div>
+      <!---Submit Button----->
+    </form>
+  </div>
+  <!--Body of Form ends--->
+  
+  <!-- Copyright -->
+  <div class="py-3" style="background-color: #1b224b; bottom: 0; position: absolute; width: 100%; color: whitesmoke; text-align: center; padding: 7px;">
+    © 2022 Copyright:
+    <a href="./index.html" style="color:rgb(0, 129, 255) ;">Z-TECH</a>
+</div>
+<!-- Copyright -->
+
+
+  
+  
+  <script src="./js/jquery.slim.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/nav.js"></script>
+
+</body>
+
+</html>
